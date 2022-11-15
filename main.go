@@ -9,7 +9,7 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 		c.String(200, "OK")
 	})
-	r.GET("/", func(c *gin.Context) {
+	r.POST("/", func(c *gin.Context) {
 		c.String(200, "OK")
 	})
 	r.Run()
